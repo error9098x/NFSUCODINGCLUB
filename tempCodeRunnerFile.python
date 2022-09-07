@@ -1,0 +1,16 @@
+
+Data = [1,2,3,4,5]
+ITEM = int(input())
+LOC = 0
+flag = False
+for i in range(len(Data)):
+	if ITEM == Data[i]:
+            LOC = i+1
+            print("Location of the Item ",LOC)
+            flag = True
+            break
+
+if LOC==0:
+	print("Item is not Found")
+
+	
